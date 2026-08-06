@@ -10,6 +10,7 @@
 | Project | What it is |
 |---|---|
 | [AgentLedger](https://github.com/mlazeez/agent-ledger) | Self-hosted, tamper-proof audit trail for AI agents — zero dependencies |
+| [AgentLedger MCP](https://github.com/mlazeez/agent-ledger-mcp) | Audit + policy enforcement as tools for any MCP client (Claude, VS Code, custom agents) |
 
 More coming soon — LLM tools and agent infrastructure.
 
