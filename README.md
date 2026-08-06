@@ -3,7 +3,6 @@
 **AI Engineer** building tools for the agents that build software.
 
 - 🔒 Currently building **AgentLedger** — tamper-proof audit trails + policy enforcement for AI agents
-- 🧠 Previously: physics-informed neural networks (PINN) for reservoir simulation
 - 🛠️ Python · C++ · SQLite · Docker
 
 ## What I'm working on
