@@ -1,20 +1,29 @@
-# Hi, I'm Azeez 👋
+# Azeez — AI Engineer
 
-**AI Engineer** building tools for the agents that build software.
+Building the infrastructure layer for AI agents: control surfaces, context
+pipelines, and audit trails. The model is commodity — the infrastructure
+around it is the product.
 
-- 🔒 Currently building **AgentLedger** — tamper-proof audit trails + policy enforcement for AI agents
-- 🛠️ Python · C++ · SQLite · Docker
+## What I'm building
 
-## What I'm working on
+| Project | What it is | Install |
+|---|---|---|
+| [agent-gatekeep](https://github.com/mlazeez/gatekeep) | Control surface for agents — vault-backed rollback, typed hooks, circuit breaker, audit log | `pip install agent-gatekeep` |
+| [ctxforge](https://github.com/mlazeez/ctxforge) | Context compiler — raw documents to a queryable wiki (concepts, backlinks, search, health checks) | `pip install ctxforge-ai` |
+| [tracedeck](https://github.com/mlazeez/tracedeck) | Decision logs for agents — replay, decision-point diffing, golden regression gates | `pip install tracedeck` |
+| [AgentLedger](https://github.com/mlazeez/agent-ledger) | Tamper-proof audit trail + policy enforcement for AI agents, zero dependencies | — |
+| [AgentLedger MCP](https://github.com/mlazeez/agent-ledger-mcp) | Audit + policy enforcement as tools for any MCP client (Claude, VS Code, custom agents) | — |
+| [AgentLedger Adapters](https://github.com/mlazeez/agent-ledger-adapters) | One-liner audit for LangChain, LlamaIndex, OpenAI Agents | — |
 
-| Project | What it is |
-|---|---|
-| [AgentLedger](https://github.com/mlazeez/agent-ledger) | Self-hosted, tamper-proof audit trail for AI agents — zero dependencies |
-| [AgentLedger MCP](https://github.com/mlazeez/agent-ledger-mcp) | Audit + policy enforcement as tools for any MCP client (Claude, VS Code, custom agents) |
-| [AgentLedger Adapters](https://github.com/mlazeez/agent-ledger-adapters) | One-liner audit for LangChain, LlamaIndex, OpenAI Agents — zero dependencies |
+**AgentLedger** = *what the agent did.* **gatekeep** = *what the agent is
+allowed to do.* **ctxforge** = *what the agent knows.* **tracedeck** = *why
+the agent decided it.*
 
-More coming soon — LLM tools and agent infrastructure.
+## Stack
 
-## Let's connect
+Python · C++ · SQLite · MCP · zero-dependency stdlib-first design
 
-- 💬 Open to AI engineering & agent infrastructure work
+## Open to
+
+AI engineering, agent infrastructure, and LLM tooling work — [start a
+discussion](https://github.com/mlazeez/mlazeez/discussions).
